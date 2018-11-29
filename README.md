@@ -3,7 +3,7 @@ This is personal repository to algorithm
 # Basic Algorithm
 ## Sort
 - heap sort
-- quict sort
+- [quict sort](https://github.com/dhyoum/SSA/tree/master/src/qsort)
 - merge sort
 ## Data Sructure
 - Stack
