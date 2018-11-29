@@ -1,10 +1,9 @@
 # Visual Studio 
 
 ## input file
+![Input](../img/input.png)
 
-
-
-## ShortCut
+## 단축키
 - 자동 들여쓰기(Edit.FormatDocument) => Ctrl+K, Ctrl+D
 - 선택영역 주석 처리(Edit.CommentSelection) => Ctrl+K, Ctrl+C
 - 선택영역 주석 처리 취소(Edit.UncommentSelection) => Ctrl+K, Ctrl+U
