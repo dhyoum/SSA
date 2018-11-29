@@ -37,7 +37,7 @@ void qsort(int data[], int left, int right)
 
 int main()
 {
-	int N;
+    int N;
     scanf("%d", &N);
 
     for(int i=0; i<N; i++)
