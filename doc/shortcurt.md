@@ -1,4 +1,4 @@
-# Visual Studio Short curt
+# Visual Studio Shortt
 
 - 자동 들여쓰기(Edit.FormatDocument) => Ctrl+K, Ctrl+D
 - 선택영역 주석 처리(Edit.CommentSelection) => Ctrl+K, Ctrl+C
