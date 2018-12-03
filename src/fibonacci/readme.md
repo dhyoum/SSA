@@ -1,5 +1,4 @@
--[Fibnaccci](https://github.com/dhyoum/SSA/tree/master/src/fibonacci)
-
+[Fibnaccci](https://github.com/dhyoum/SSA/tree/master/src/fibonacci)
 ```c
 int fibonacci(int n)
 {
