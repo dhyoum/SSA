@@ -7,6 +7,6 @@ int fibonacci(int n)
     else if (n==1)
         return 1;
 
-    return fibonacci(n-1) + fibonacci(n-2);  // 실패
+    return fibonacci(n-1) + fibonacci(n-2);  // fail 
 }
 ```
