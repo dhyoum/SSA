@@ -27,7 +27,7 @@ This is personal repository to algorithm
 - String Matching
 
 ## Problem
-- [Fibonacci](https://www.acmicpc.net/problem/2747)
+- [Fibonacci](https://github.com/dhyoum/SSA/tree/master/src/fibonacci)
 
 <hr/>
 
