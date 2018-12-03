@@ -8,7 +8,7 @@ This is personal repository to algorithm
 ## Data Sructure
 - Stack
 - Queue
-- Linked List
+- [Linked List](https://github.com/dhyoum/SSA/tree/master/src/linkedlist)
 - Graph
 ## Search
 - DFS
