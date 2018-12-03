@@ -7,6 +7,6 @@ int fibonacci(int n)
     else if (n==1)
         return 1;
 
-    return fibonacci(n-1) + fibonacci(n-2);
+    return fibonacci(n-1) + fibonacci(n-2);  // 이렇게 하면 매번 계산을 수행하기 때문에 느려서 
 }
 ```
