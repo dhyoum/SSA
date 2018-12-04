@@ -25,13 +25,16 @@ This is personal repository to algorithm
 ## Etc
 - bitmask
 - String Matching
+- cca
 
 ## Problem
+- gcd
+- prime number
 - [Fibonacci](https://github.com/dhyoum/SSA/tree/master/src/fibonacci)
 
 <hr/>
 
-# Links
+## Links
 - [Introduction](https://labs.xjtudlc.com/labs/wldmt/reading%20list/books/Algorithms%20and%20optimization/Introduction%20to%20Algorithms.pdf)
 - [BOJ](https://www.acmicpc.net/)
 - [동빈나](https://blog.naver.com/PostList.nhn?blogId=ndb796&from=postList&categoryNo=128)
