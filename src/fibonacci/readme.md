@@ -1,4 +1,4 @@
-[Fibnaccci](https://github.com/dhyoum/SSA/tree/master/src/fibonacci)
+[Question](https://www.acmicpc.net/problem/2748)
 ```c
 int fibonacci(int n)
 {
@@ -7,8 +7,6 @@ int fibonacci(int n)
     else if (n==1)
         return 1;
 
-    return fibonacci(n-1) + fibonacci(n-2);  // fail 
+    return fibonacci(n-1) + fibonacci(n-2); // fail 
 }
-```
-[Question](https://www.acmicpc.net/problem/2748)
 ```
