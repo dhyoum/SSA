@@ -23,7 +23,8 @@ int fibonacci(int n)
 }
 ```
 참고 : [Pisano Period](https://en.wikipedia.org/wiki/Pisano_period) 
-피보나치의 결과값을 임의의 수 n 으로 나는 나머지는 일정한 주기(Pisano Period)라 부름
+피보나치의 결과값을 임의의 수 n 으로 나는 나머지는 일정한 주기(Pisano Period)라 함.
+
 관련 문제
 https://www.acmicpc.net/problem/2749
 https://www.acmicpc.net/problem/9471
