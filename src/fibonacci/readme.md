@@ -11,6 +11,7 @@ int fibonacci(int n)
 }
 ```
 
+[메모이제이션](https://ko.wikipedia.org/wiki/메모이제이션)을 이용한 약간의 개선
 ```c
 int fibonacci(int n)
 {
