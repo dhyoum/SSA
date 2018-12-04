@@ -47,7 +47,7 @@ unsigned long long fibonacci3(int n)
 
 int main()
 {
-	int N;
+    int N;
     scanf("%d", &N);
     printf("%llu\n", fibonacci(N));
     printf("%llu\n", fibonacci2(N));
