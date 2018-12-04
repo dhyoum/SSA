@@ -34,3 +34,4 @@ This is personal repository to algorithm
 # Links
 - [Introduction](https://labs.xjtudlc.com/labs/wldmt/reading%20list/books/Algorithms%20and%20optimization/Introduction%20to%20Algorithms.pdf)
 - [BOJ](https://www.acmicpc.net/)
+- [동빈나](https://blog.naver.com/PostList.nhn?blogId=ndb796&from=postList&categoryNo=128)
