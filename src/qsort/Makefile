@@ -1,4 +1,4 @@
-XX  = g++
+CXX  = g++
 
 CXXFLAGS =
 CXXFLAGS += -O2 -g -std=c++11 -Wall
