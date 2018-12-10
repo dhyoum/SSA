@@ -31,6 +31,7 @@ This is personal repository to algorithm
 - gcd
 - prime number
 - [Fibonacci](https://github.com/dhyoum/SSA/tree/master/src/fibonacci)
+- [입국심사](https://www.acmicpc.net/problem/3079)
 
 <hr/>
 
