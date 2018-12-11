@@ -6,7 +6,7 @@ int array[MAX];
 
 int main()
 {
-	int n, m;
+    int n, m;
     scanf("%d%d", &n, &m);
     long long lo = 0, hi = 0;
     for (int i=0; i<n; i++) 
