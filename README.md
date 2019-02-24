@@ -4,7 +4,7 @@ This is personal repository to algorithm
 ## Sort
 - heap sort
 - [quict sort](https://github.com/dhyoum/SSA/tree/master/src/qsort)
-- merge sort
+- [merge sort](https://github.com/dhyoum/SSA/tree/master/src/mergesort)
 ## Data Sructure
 - Stack
 - Queue
