@@ -2,7 +2,7 @@ This is personal repository to algorithm
 
 # Basic Algorithm
 ## Sort
-- heap sort
+- [heap sort](https://github.com/dhyoum/SSA/tree/master/src/heapsort)
 - [quict sort](https://github.com/dhyoum/SSA/tree/master/src/qsort)
 - [merge sort](https://github.com/dhyoum/SSA/tree/master/src/mergesort)
 ## Data Sructure
