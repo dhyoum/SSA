@@ -39,3 +39,6 @@ This is personal repository to algorithm
 - [Introduction](https://labs.xjtudlc.com/labs/wldmt/reading%20list/books/Algorithms%20and%20optimization/Introduction%20to%20Algorithms.pdf)
 - [BOJ](https://www.acmicpc.net/)
 - [동빈나](https://blog.naver.com/PostList.nhn?blogId=ndb796&from=postList&categoryNo=128)
+- algorithm_md(www.digitalculture.or.kr/upload/algorithm_md.pdf)
+- algorithm_ad(www.digitalculture.or.kr/upload/algorithm_ad.pdf)
+
