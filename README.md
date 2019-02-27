@@ -33,12 +33,10 @@ This is personal repository to algorithm
 - [Fibonacci](https://github.com/dhyoum/SSA/tree/master/src/fibonacci)
 - [입국심사](https://github.com/dhyoum/SSA/tree/master/src/aerodrom)
 
-<hr/>
-
 ## Links
 - [Introduction](https://labs.xjtudlc.com/labs/wldmt/reading%20list/books/Algorithms%20and%20optimization/Introduction%20to%20Algorithms.pdf)
 - [BOJ](https://www.acmicpc.net/)
 - [동빈나](https://blog.naver.com/PostList.nhn?blogId=ndb796&from=postList&categoryNo=128)
-- [algorithm_md](http://www.digitalculture.or.kr/upload/algorithm_md.pdf)
-- [algorithm_ad](http://www.digitalculture.or.kr/upload/algorithm_ad.pdf)
+- [algorithm md](http://www.digitalculture.or.kr/upload/algorithm_md.pdf)
+- [algorithm ad](http://www.digitalculture.or.kr/upload/algorithm_ad.pdf)
 
