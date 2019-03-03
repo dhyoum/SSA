@@ -26,6 +26,22 @@ void Comb(int arr[], int N, int M, int depth, int start)
     }
 }
 
+void combination(int arr[], int N, int R)
+{
+	if (R == 0)
+		printOut(selected, 3);
+	else if (n < r)
+		return;
+	else
+	{
+        // 수학의 정의에 기반한 재귀식 표현임.
+		selected[R - 1] = array[N - 1];
+		combination(N - 1, R-1);
+		combination(N - 1, R);
+	}
+}
+
+
 int main()
 {
     int N, M;
