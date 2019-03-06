@@ -13,19 +13,22 @@ This is personal repository to algorithm
 ## Search
 - DFS
 - BFS
-- Binary Search
-## Dynamic Programming
+- Binary Search / lower bound / upper bound
+- Ternary Search
 
-## Greedy Algorithms
--
+## Dynamic Programming
+- 0/1 knapsack problem
+
 ## Shortest Paths
 - Dijkstra’s algorithm
 - The Floyd-Warshall algorithm
+- Bellman-Ford algorithm
 
 ## Etc
 - bitmask
 - String Matching
 - cca
+- Bellman-Ford 
 
 ## Problem
 - gcd
@@ -39,4 +42,3 @@ This is personal repository to algorithm
 - [동빈나](https://blog.naver.com/PostList.nhn?blogId=ndb796&from=postList&categoryNo=128)
 - [algorithm md](http://www.digitalculture.or.kr/upload/algorithm_md.pdf)
 - [algorithm ad](http://www.digitalculture.or.kr/upload/algorithm_ad.pdf)
-
