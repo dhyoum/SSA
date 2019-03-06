@@ -20,8 +20,8 @@ This is personal repository to algorithm
 - 0/1 knapsack problem
 
 ## Shortest Paths
-- Dijkstra’s algorithm
-- The Floyd-Warshall algorithm
+- Dijkstra’s algorithm : 두 정점 사이의 최단 경로 O(n^2), 음수 가중치는 허용 안됨
+- The Floyd-Warshall algorithm : O(n^3)
 - Bellman-Ford algorithm
 
 ## Etc
