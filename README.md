@@ -19,6 +19,11 @@ This is personal repository to algorithm
 ## Dynamic Programming
 - 0/1 knapsack problem
 
+## Graph
+- union 
+- find : root compression
+- Kruskal 
+
 ## Shortest Paths
 - Dijkstra’s algorithm : 두 정점 사이의 최단 경로 O(n^2), 음수 가중치는 허용 안됨
 - The Floyd-Warshall algorithm : O(n^3)
