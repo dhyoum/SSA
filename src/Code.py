@@ -35,3 +35,14 @@ def upper_bound(arr, key):  # key 큰 수가 처음으로 등장하는 위치
             end = mid
 
     return end
+
+def com(arr, start, r, ret=[]):
+    if len(ret) == r:
+        print(ret)
+        return
+
+    for x in range(start, len(arr)):
+        ret.append(arr[x])
+        com(arr, x+1, r, ret)  
+        # com(arr, x, r, ret)  
+        ret.pop()
