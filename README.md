@@ -5,11 +5,13 @@ This is personal repository to algorithm
 - [heap sort](https://github.com/dhyoum/SSA/tree/master/src/heapsort)
 - [quict sort](https://github.com/dhyoum/SSA/tree/master/src/qsort)
 - [merge sort](https://github.com/dhyoum/SSA/tree/master/src/mergesort)
+
 ## Data Sructure
 - Stack
 - Queue
 - [Linked List](https://github.com/dhyoum/SSA/tree/master/src/linkedlist)
 - Graph
+
 ## Search
 - DFS
 - BFS
@@ -18,6 +20,13 @@ This is personal repository to algorithm
 
 ## Dynamic Programming
 - 0/1 knapsack problem
+- Longest Common SubSequence
+- Longest Increasing Subsequence
+
+## String
+- Suffix Array
+- Longest Common SubString
+- KMP
 
 ## Graph
 - union 
@@ -31,15 +40,8 @@ This is personal repository to algorithm
 
 ## Etc
 - bitmask
-- String Matching
 - cca
-- Bellman-Ford 
-
-## Problem
-- gcd
-- prime number
-- [Fibonacci](https://github.com/dhyoum/SSA/tree/master/src/fibonacci)
-- [입국심사](https://github.com/dhyoum/SSA/tree/master/src/aerodrom)
+- line sweeping
 
 ## Links
 - [Introduction](https://labs.xjtudlc.com/labs/wldmt/reading%20list/books/Algorithms%20and%20optimization/Introduction%20to%20Algorithms.pdf)
