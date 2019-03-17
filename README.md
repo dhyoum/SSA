@@ -26,7 +26,7 @@ This is personal repository to algorithm
 ## String
 - KMP
 - Suffix Array 
-- Counting Sort
+- [ounting Sort](https://plzrun.tistory.com/entry/Counting-Sort-Radix-Sort)
 - Longest Common Prefix
 - Longest Common SubString
 
