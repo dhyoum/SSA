@@ -82,3 +82,16 @@ int f(int n, int k)
 	return DT[n][k];
 }
 ```
+
+### 0/1 Knapsack 
+선택, 미선택의 문제이므로,  2^N -> 완전 탐색 불가 : 메모이제이션 
+```c
+int f(int i, int r)
+{
+	if (DT[i][r] != -1) return DT[i][r];
+	if (i == n + 1) return DT[i][r] = 0;
+	else if (r < w[i]) return DT[i][r] = f(i + 1, r);
+	else return DT[i][r] = max(f(i + 1, r), f(i + 1, r - w[i]) + v[i]);
+}
+```
+
