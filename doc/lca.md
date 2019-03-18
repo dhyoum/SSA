@@ -23,4 +23,6 @@ int lca(int n1, int n2)
 	}
 	return u;
 }
-```c
+```
+
+### 좀더 빠른 방법은 ??
