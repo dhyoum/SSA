@@ -25,4 +25,14 @@ int lca(int n1, int n2)
 }
 ```
 
+만약 이진트리라면, node/2 가 부모가 되므로, 높이를 맞춰주는 부분과 탐색을 아래와 같이..
+```c
+int f(int a, int b)
+{
+ if(a==b) return 0;
+ if(b>a) return f(a,b/2)+1;
+ if(a>b) return f(a/2,b)+1;
+}
+```
+
 ### 좀더 빠른 방법은 ??
