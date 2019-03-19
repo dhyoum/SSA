@@ -1,5 +1,3 @@
-This is personal repository to algorithm 
-
 # Basic Algorithm
 ## Sort
 - [heap sort](https://github.com/dhyoum/SSA/tree/master/src/heapsort)
