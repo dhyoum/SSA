@@ -100,3 +100,48 @@ int f(int i, int r)
 }
 ```
 
+### 거스름돈
+
+- 완전 탐색
+```c
+int m, n, coin[MAX], ans = 987654321;
+void solve(int money, int cnt)
+{
+    if (money > m) return;
+    if (money == m) ans = min(ans, cnt);
+
+    for(int i=0; i<n; i++)
+        solve(money+coin[i], cnt+1);
+}
+```
+- 완전탐색버전을 함수 return 방식으로
+```c
+int f(int money)
+{
+    if (money == m) return 0;
+
+    int res = 987654321;
+    for(int i=0; i<n; i++) {
+        if (money + coin[i]<=m)
+            res = min(res, f(money+coin[i])+1);
+    }
+    return res;
+}
+```
+- 메모이제이션
+```c
+int dp[10001];
+int f2(int money)
+{
+    if (money == m) return dp[money]=0;
+
+    if (dp[money]) return dp[money];
+
+    dp[money] = 987654321;
+    for(int i=0; i<n; i++) {
+        if (money + coin[i]<=m)
+            dp[money] = min(dp[money], f(money+coin[i])+1);
+    }
+    return dp[money];
+}
+```
