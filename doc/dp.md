@@ -145,3 +145,14 @@ int f2(int money)
     return dp[money];
 }
 ```
+
+## 메모이제이션 구현 패턴
+
+1. 기저 사례를 먼저 처리 ( 입력이 범위를 벗어난 경우 )
+2. 함수의 반환값을 확인하여, cache[] 의 초기값을 설정하여, 저장 여부 판단.
+3. ref 형식으로 사용
+```c
+int& ref = cached[n][visit];
+```
+4. 다음 testcase 를 위한 
+
