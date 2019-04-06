@@ -44,6 +44,17 @@
 - cca
 - line sweeping
 
+## Match
+- Prime : Eratosthenes
+- A * B = gcd(A,B) * lcm(A,B)
+```c 
+int gcd(int a, int b) {
+  if (a==0) return b;
+  return gcd(b%a, a);
+}
+```
+- 합동식 : A ≡ B (mod M) 이라는 기호의 의미는 A 와 B 가 M 으로 나눈 나머지가 같다.
+
 ## Links
 - [Introduction](https://labs.xjtudlc.com/labs/wldmt/reading%20list/books/Algorithms%20and%20optimization/Introduction%20to%20Algorithms.pdf)
 - [BOJ](https://www.acmicpc.net/)
