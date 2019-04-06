@@ -13,11 +13,12 @@
 8. DisjoinSet / Kruskal / Dijkstra / Floyd Wrashall
  
 ### Next Step
-9. Topolgy Sort
-10. Network Flow / 이분 매칭
-11. Line Sweeping
-12. Segment Tree / Index Tree
-13. LCA
+9. 문자열 : SA, LCA 구현 및 응
+10. Topolgy Sort
+11. Network Flow / 이분 매칭
+12. Line Sweeping
+13. Segment Tree / Index Tree
+14. LCA
 
 ### Basic Approach
 
@@ -50,10 +51,12 @@
 
 0. 크루스컬 알고리즘 : 전체 노드를 최단 거리로 순회하기
    - Union Find 암기
+   - 정렬
 1. 플로이드 와샬 : 전체 노드의 최단 거리 찾기.
-   - O(n^3)
+   - O(n^3) 즉, n 이 1000 이하에서만 가능하다. 그 이상이면 사용 불가.
 2. 다익스트라 : 시작점에서 마지막점이 주어진 경우 최단거리 찾기 
-   - 정점과 간선의 개수가 늘아나면, 우선순위 Queue 를 구현해야하는데, STL 없이는 어려움.
+   - prioirty queue 구현
+   - 정점과 간선의 개수가 늘아나면,
    - [문제](https://www.acmicpc.net/problem/1753)
 3. 라인 스위핑
    - 기본 개념에 비해서 실제 응용은 구현이 다양함.
