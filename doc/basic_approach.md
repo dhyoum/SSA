@@ -1,6 +1,6 @@
 **Note**
 - 일단 알고리즘의 분야가 매우 다양하고, 알아야할 지식들이 너무 많다.
-- 기본적인 [분류](https://www.acmicpc.net/problem/tags)도 많아서, 그 중에 기본이 되는 것들만 정리
+- 기본적으로 [분류](https://www.acmicpc.net/problem/tags)도 많아서, 기본이 되는 것들만 정리
 
 ### Basic Code
 1. Heapify : up, down 방식 모두 암기 / 삭제 / 삭제
