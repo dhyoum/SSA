@@ -159,3 +159,7 @@ int& ref = cached[n][visit];
 
 ### 최적 부분 구조 ( optimal substructure )
 어떤 경로로 이 부분 문제에 도달했건 남은 부분 문제는 항상 최적으로 풀어도 상관이 없다.
+
+
+### 역원에 대해서
+[link](https://www.acmicpc.net/blog/view/29)
