@@ -13,12 +13,14 @@
 8. DisjoinSet / Kruskal / Dijkstra / Floyd Wrashall
  
 ### Next Step
-9. 문자열 : SA, LCA 구현 및 응
-10. Topolgy Sort
-11. Network Flow / 이분 매칭
-12. Line Sweeping
-13. Segment Tree / Index Tree
-14. LCA
+9. 문자열 : SA, LCA ..
+10. Topolgy Sort : BFS 로 구현 진입차수가 0 인 노드들을 Queue 에 넣음
+11. Network Flow : BFS 로 구현
+12. 이분 매칭 : DFS 로 구현
+13. Line Sweeping
+14. [Segment Tree](https://www.acmicpc.net/blog/view/9) : 구간 합 - 배열크기 1<<(N+1), 속도 : O(logN)
+15. BIT(Binary Index Tree, [Fenwick Tree](https://www.acmicpc.net/blog/view/21)) : 구간 합 - 배열크기 N, 속도 : O(logN)
+16. LCA
 
 ### Basic Approach
 
