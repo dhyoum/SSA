@@ -53,7 +53,7 @@ int gcd(int a, int b) {
   return gcd(b%a, a);
 }
 ```
-- 합동식 : A ≡ B (mod M) 이라는 기호의 의미는 A 와 B 가 M 으로 나눈 나머지가 같다.
+- 합동식 : a ≡ b(mod m) 이라는 기호의 의미는 a 와 b 가 m 으로 나눈 나머지가 같다. 다른 말로는 a 를 m 으로 나누면 나머지가 b 임.
 
 ## Links
 - [Introduction](https://labs.xjtudlc.com/labs/wldmt/reading%20list/books/Algorithms%20and%20optimization/Introduction%20to%20Algorithms.pdf)
