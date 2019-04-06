@@ -76,7 +76,7 @@ int sum(int i) {
     }
     return ans;
 }
-void update(int i, int num) {
+void update(int i, int num) { // num 는 diff 
     while (i <= n) {
         tree[i] += num;
         i += (i & -i);
