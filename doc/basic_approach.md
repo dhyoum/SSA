@@ -1,11 +1,23 @@
-### Basic Code
+** Note **
+- 일단 알고리즘의 분야가 매우 다양하고, 알아야할 지식들이 너무 많다.
+- 기본적인 [분류](https://www.acmicpc.net/problem/tags)도 많아서, 그 중에 기본이 되는 것들만 정리
 
+### Basic Code
 1. Heapify : up, down 방식 모두 암기 / 삭제 / 삭제
 2. Quick Sort 
-3. Queue 
+3. Queue / LinkedList / vector 구현
 4. 순열, 조합 경우의 수를 만들어 내기
 5. 부분 집합을 만들어 내기
 6. Binaray Search 
+7. DFS / BFS 구현
+8. DisjoinSet / Kruskal / Dijkstra / Floyd Wrashall
+ 
+### Next Step
+9. Topolgy Sort
+10. Network Flow / 이분 매칭
+11. Line Sweeping
+12. Segment Tree / Index Tree
+13. LCA
 
 ### Basic Approach
 
@@ -36,7 +48,7 @@
 
 ### 유명한 알고리즘
 
-0. 크루수컬 알고리즘 : 전체 노드를 최단 거리로 순회하기
+0. 크루스컬 알고리즘 : 전체 노드를 최단 거리로 순회하기
    - Union Find 암기
 1. 플로이드 와샬 : 전체 노드의 최단 거리 찾기.
    - O(n^3)
@@ -48,3 +60,5 @@
    - 1차원 연결 -> 2차원으로 넘어가면 까다로움 -> 3차원은. 생각도 못하겠음.
   
 ### 문자열 관련 
+
+... 으윽.
