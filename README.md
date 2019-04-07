@@ -58,6 +58,8 @@ int gcd(int a, int b) {
 ## Links
 - [Introduction](https://labs.xjtudlc.com/labs/wldmt/reading%20list/books/Algorithms%20and%20optimization/Introduction%20to%20Algorithms.pdf)
 - [BOJ](https://www.acmicpc.net/)
+
+- [Crocus][https://www.crocus.co.kr/category/Applied)
 - [동빈나](https://blog.naver.com/PostList.nhn?blogId=ndb796&from=postList&categoryNo=128)
 - [algorithm md](http://www.digitalculture.or.kr/upload/algorithm_md.pdf)
 - [algorithm ad](http://www.digitalculture.or.kr/upload/algorithm_ad.pdf)
