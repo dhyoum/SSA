@@ -18,7 +18,7 @@
 11. Network Flow : BFS 로 구현
 12. 이분 매칭 : DFS 로 구현
 13. Line Sweeping
-14. [Segment Tree](https://www.acmicpc.net/blog/view/9) : 구간 합 - 배열크기 1<<(N+1), 속도 : O(logN)
+14. [Segment Tree](https://www.acmicpc.net/blog/view/9) : 구간 합 - 배열크기 1<<(N+1),또는 4* 속도 : O(logN)
 15. BIT(Binary Index Tree, [Fenwick Tree](https://www.acmicpc.net/blog/view/21)) : 구간 합 - 배열크기 N, 속도 : O(logN)
 16. LCA
 
