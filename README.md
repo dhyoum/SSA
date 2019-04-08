@@ -23,10 +23,9 @@
 
 ## String
 - KMP
-- Suffix Array 
+- [SA](https://programbasic.tistory.com/613)
 - [Counting Sort](https://plzrun.tistory.com/entry/Counting-Sort-Radix-Sort)
-- Longest Common Prefix
-- Longest Common SubString
+- [LCS](https://www.crocus.co.kr/787)
 
 
 ## Graph
@@ -59,7 +58,7 @@ int gcd(int a, int b) {
 - [Introduction](https://labs.xjtudlc.com/labs/wldmt/reading%20list/books/Algorithms%20and%20optimization/Introduction%20to%20Algorithms.pdf)
 - [BOJ](https://www.acmicpc.net/)
 
-- [Crocus][https://www.crocus.co.kr/category/Applied)
+- [Crocus](https://www.crocus.co.kr/category/Applied)
 - [동빈나](https://blog.naver.com/PostList.nhn?blogId=ndb796&from=postList&categoryNo=128)
 - [algorithm md](http://www.digitalculture.or.kr/upload/algorithm_md.pdf)
 - [algorithm ad](http://www.digitalculture.or.kr/upload/algorithm_ad.pdf)
