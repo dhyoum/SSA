@@ -30,6 +30,8 @@ int main()
 {
 	char str1[] = "abc";
 	char str2[] = "abc";
+	// printf("%d\n", strlen(str1));
+
 	printf("lcs = %d\n", lcs(str1, str2));
 
 	return 0;
