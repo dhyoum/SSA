@@ -13,7 +13,7 @@
 8. DisjoinSet / Kruskal / Dijkstra / Floyd Wrashall
  
 ### Next Step
-9. 문자열 : SA, LCA ..
+9. 문자열 : SA, LCP
 10. Topolgy Sort : BFS 로 구현 진입차수가 0 인 노드들을 Queue 에 넣음
 11. Network Flow : BFS 로 구현
 12. 이분 매칭 : DFS 로 구현
