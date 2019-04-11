@@ -47,10 +47,7 @@
 - Prime : Eratosthenes
 - A * B = gcd(A,B) * lcm(A,B)
 ```c 
-int gcd(int a, int b) {
-  if (a==0) return b;
-  return gcd(b%a, a);
-}
+long long gcd(long long b, long long s) { return s?gcd(s,b%s):b; }
 ```
 - 합동식 : a ≡ b(mod m) 이라는 기호의 의미는 a 와 b 가 m 으로 나눈 나머지가 같다. 다른 말로는 a 를 m 으로 나누면 나머지가 b 임.
 
