@@ -53,6 +53,28 @@ void merge_sort(int array[], int start, int end)
     merge(array, start, mid, end);
 }
 
+int tmp[MAX];
+void mergeSort2(int array[], int start, int end) {
+    if (start >= end) return;
+
+	int mid = (start + end) >> 1;
+
+	mergeSort2(array, start, mid);
+	mergeSort2(array, mid + 1, end);
+
+	int left = start, right = mid + 1;
+	int idx = start;
+
+	while (left <= mid || right <= end) {
+		if (right > end || (left <= mid && array[left] < array[right]))
+			tmp[idx++] = array[left++];
+		else
+			tmp[idx++] = array[right++];
+	}
+	for (int i = start; i <= end; i++)
+		array[i] = tmp[i];
+}
+ 
 int main()
 {
     int N;
@@ -61,7 +83,8 @@ int main()
     for(int i=0; i<N; i++)
         scanf("%d\n", &array[i]);
 
-    merge_sort(array, 0, N-1);
+    // merge_sort(array, 0, N-1);
+    mergeSort2(array, 0, N-1);
 
     for(int i=0; i<N; i++)
         printf("%d) %5d\n", i, array[i]);
