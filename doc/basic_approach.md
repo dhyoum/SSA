@@ -6,21 +6,21 @@
 1. Heapify : up, down 방식 모두 암기 / 삭제 / 삭제
 2. Quick Sort 
 3. Queue / LinkedList / vector 구현
-4. 순열, 조합 경우의 수를 만들어 내기
-5. 부분 집합을 만들어 내기
-6. Binaray Search 
+4. Permutaion / Combination 
+5. Powerset
+6. Binaray Search / Lower_bound / Upper_bound
 7. DFS / BFS 구현
 8. DisjoinSet / Kruskal / Dijkstra / Floyd Wrashall
- 
-### Next Step
-9. 문자열 : SA, LCP
+9. Suffix Array, LCP
 10. Topolgy Sort : BFS 로 구현 진입차수가 0 인 노드들을 Queue 에 넣음
 11. Network Flow : BFS 로 구현
 12. 이분 매칭 : DFS 로 구현
 13. Line Sweeping
 14. [Segment Tree](https://www.acmicpc.net/blog/view/9) : 구간 합 - 배열크기 1<<(N+1),또는 4* 속도 : O(logN)
 15. BIT(Binary Index Tree, [Fenwick Tree](https://www.acmicpc.net/blog/view/21)) : 구간 합 - 배열크기 N, 속도 : O(logN)
-16. LCA
+16. LIS, LCS, LCA
+17. sliding windows
+18. CCW
 
 ### Basic Approach
 
@@ -91,4 +91,6 @@ void update(int i, int num) { // num 는 diff
  
 ### 문자열 관련 
 
-... 으윽.
+1. KMP
+2. Suffix Array / counting sort
+3. LCP
