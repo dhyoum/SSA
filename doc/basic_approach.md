@@ -19,7 +19,7 @@
 14. [Segment Tree](https://www.acmicpc.net/blog/view/9) : 구간 합 - 배열크기 1<<(N+1),또는 4* 속도 : O(logN)
 15. BIT(Binary Index Tree, [Fenwick Tree](https://www.acmicpc.net/blog/view/21)) : 구간 합 - 배열크기 N, 속도 : O(logN)
 16. LIS, LCS, LCA
-17. sliding windows
+17. 2 arrays sliding windows
 18. CCW
 
 ### Basic Approach
