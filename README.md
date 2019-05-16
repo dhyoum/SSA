@@ -2,6 +2,7 @@
 ## Sort
 - [heap sort](https://github.com/dhyoum/SSA/tree/master/src/heapsort)
 - [quict sort](https://github.com/dhyoum/SSA/tree/master/src/qsort)
+<script src="https://gist.github.com/dhyoum/0a7e07cf48109b5665a37fe2701d30f6.js"></script>
 - [merge sort](https://github.com/dhyoum/SSA/tree/master/src/mergesort)
 - counting sort
 - radix sort
