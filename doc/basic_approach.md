@@ -17,7 +17,9 @@
 12. 이분 매칭 : DFS 로 구현
 13. Line Sweeping
 14. [Segment Tree](https://www.acmicpc.net/blog/view/9) : 구간 합 - 배열크기 1<<(N+1),또는 4* 속도 : O(logN)
+    : 구간을 Update 하고, 구간의 합을 계산할때 
 15. BIT(Binary Index Tree, [Fenwick Tree](https://www.acmicpc.net/blog/view/21)) : 구간 합 - 배열크기 N, 속도 : O(logN)
+    : 한개씩 Update 하고, 누적합을 계산할때, - 구현이 훨씬 간단하다.
 16. LIS, LCS, LCA
 17. 2 arrays sliding windows
 18. CCW
@@ -66,6 +68,7 @@
 3. Fenwick Tree
    - 일정 범위씩 서로 다른 구간의 정보를 저장함.
    - 일정 범위 : i & -i 로 저장하고 있는 값들의 개수를 계산 (어떤 수 i를 이진수로 나타냈을 떄, 마지막 1의 위치)
+   - 한개씩 Update 한다. 아래의 코드를 보라.
    
 ```c
 int sum(int i) {
@@ -85,12 +88,17 @@ void update(int i, int num) { // num 는 diff
 ```
 
 4. 라인 스위핑
-   - 기본 개념에 비해서 실제 응용은 구현이 다양함.
-   - 1차원 연결 -> 2차원으로 넘어가면 까다로움 
+   - 기본 개념은 간단하지만, 
+   - 2차원으로 넘어가면, Segment Tree 나 BIT 를 이용하여, 지속적으로 update 하고 합을 계산하는 방식으로 동작한다.
+   - 한쪽 방향에서 부터 한개씩 한개씩 계산하고, 누적하고, 계산하고 누적하는 방식임.
+   - 따라서, 알고리즘이 너무 다양해진다.
+   - 일단 그림부터 그리고, 한개씩 계산하는 방식을 글로 적어서, 데이터 누적, 계산 , 누적, 계산 이 완성이되면, 코딩
+   - 데이터를 어떻게 넣고, 계산할 것인지 찾는 것이 너무 다양하다.
+   - 대체로, SegmentTree 와 잘 어울린다. 
   
  
 ### 문자열 관련 
 
-1. KMP
-2. Suffix Array / counting sort
-3. LCP
+1. KMP : 생각보다 구현이 간단하다.
+2. Suffix Array / counting sort : 생각보다 구현은 길지만, 원리는 간단하다.
+3. LCP : 원리가 머리속에 잘 안들어온다. 그냥 외워라. 
