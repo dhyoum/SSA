@@ -17,9 +17,7 @@
 12. 이분 매칭 : DFS 로 구현
 13. Line Sweeping
 14. [Segment Tree](https://www.acmicpc.net/blog/view/9) : 구간 합 - 배열크기 1<<(N+1),또는 4* 속도 : O(logN)
-    : 구간을 Update 하고, 구간의 합을 계산할때 
 15. BIT(Binary Index Tree, [Fenwick Tree](https://www.acmicpc.net/blog/view/21)) : 구간 합 - 배열크기 N, 속도 : O(logN)
-    : 한개씩 Update 하고, 누적합을 계산할때, - 구현이 훨씬 간단하다.
 16. LIS, LCS, LCA
 17. 2 arrays sliding windows
 18. CCW
@@ -68,7 +66,6 @@
 3. Fenwick Tree
    - 일정 범위씩 서로 다른 구간의 정보를 저장함.
    - 일정 범위 : i & -i 로 저장하고 있는 값들의 개수를 계산 (어떤 수 i를 이진수로 나타냈을 떄, 마지막 1의 위치)
-   - 한개씩 Update 한다. 아래의 코드를 보라.
    
 ```c
 int sum(int i) {
