@@ -63,7 +63,13 @@
    - 정점과 간선의 개수가 늘아나면,
    - [문제](https://www.acmicpc.net/problem/1753)
 
-3. Fenwick Tree
+3. Segment Tree
+  - 구간 합 알고리즘
+  - 원래 알고리즘은 index 에 변경값을 update 하는 것이지만, 일정 구간을 동시에 update 할 수 도 있고, 여러가지 변형이 가능하다.
+  - 활용도가 생각보다 높다.
+  - 나중에 lazy propergation 까지 생각하면 
+
+4. Fenwick Tree
    - 일정 범위씩 서로 다른 구간의 정보를 저장함.
    - 일정 범위 : i & -i 로 저장하고 있는 값들의 개수를 계산 (어떤 수 i를 이진수로 나타냈을 떄, 마지막 1의 위치)
    
