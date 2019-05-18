@@ -59,8 +59,8 @@
    - 루프 순서에 주의해 주자! 경유지 / 시작점 / 끝점 순으로 돌린다. k -> i -> j
    ```c
     for k , for i, for j
-    if(adj[j][k] > adj[j][i] + adj[i][k])
-       adj[j][k] = adj[j][i] + adj[i][k];
+    if(adj[i][j] > adj[i][k] + adj[k][j])
+       adj[i][j] = adj[i][k] + adj[k][j];
    ```
    - O(n^3) 즉, n 이 1000 이하에서만 가능하다. 그 이상이면 사용 불가.
 
