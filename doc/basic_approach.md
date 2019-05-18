@@ -66,10 +66,10 @@
    - 벨만포워드
 
 3. Segment Tree
-  - 구간 합 알고리즘
-  - 원래 알고리즘은 index 에 변경값을 update 하는 것이지만, 일정 구간을 동시에 update 할 수 도 있고, 여러가지 변형이 가능하다.
-  - 활용도가 생각보다 높다. 이거 풀어보자 [문제](https://www.acmicpc.net/problem/3392)
-  - 변형 : Lazy propagation, PST
+   - 구간 합 알고리즘
+   - 원래 알고리즘은 index 에 변경값을 update 하는 것이지만, 일정 구간을 동시에 update 할 수 도 있고, 여러가지 변형이 가능하다.
+   - 활용도가 생각보다 높다. 이거 풀어보자 [문제](https://www.acmicpc.net/problem/3392)
+   - 변형 : Lazy propagation, PST
 
 4. Fenwick Tree
    - 일정 범위씩 서로 다른 구간의 정보를 저장함.
