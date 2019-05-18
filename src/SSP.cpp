@@ -36,8 +36,8 @@ void BellManFord(int s) {
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++) {
 			for (auto next : adj[j]) {
-				if (dist[j] == INF) continu;e
-                if (dist[next.v] > dist[j] + next.cost) {
+				if (dist[j] == INF) continue;
+				if (dist[next.v] > dist[j] + next.cost) {
 					dist[next.v] = dist[j] + next.cost;
 				}
 			}
