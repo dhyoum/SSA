@@ -69,7 +69,7 @@
    - 정점이 index 가 아니라, x, y 좌표로 주어지는 문제도 있다.
    - 정점과 간선의 개수가 늘아나면,..?
    - [문제](https://www.acmicpc.net/problem/1753)
-   - 벨만포워드
+   - [벨만포워드](https://www.acmicpc.net/problem/11657)
 
 3. Segment Tree
    - 구간 합 알고리즘
