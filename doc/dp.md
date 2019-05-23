@@ -162,3 +162,9 @@ int& ref = cached[n][visit];
 
 ### 기타 링크
 - [bit DP](https://koosaga.com/8?category=554431)
+
+
+#### 문제 
+- [동전1](https://www.acmicpc.net/problem/2293)
+- [동전2](https://www.acmicpc.net/problem/2294)
+
