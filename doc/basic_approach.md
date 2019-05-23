@@ -62,7 +62,7 @@
     if(adj[i][j] > adj[i][k] + adj[k][j])
        adj[i][j] = adj[i][k] + adj[k][j];
    ```
-    - O(n^3) 즉, n 이 5000 이하에서만 가능하다. 그 이상이면 사용 불가.
+    - O(n^3) 즉, n 이 500 이하에서만 가능하다. 그 이상이면 사용 불가.
     - [경로추적](https://www.acmicpc.net/problem/11780)
     - [역추적](https://www.acmicpc.net/problem/1507)
 
