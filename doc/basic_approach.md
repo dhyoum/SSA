@@ -56,15 +56,15 @@
    - 정렬
 
 1. 플로이드 와샬 : 전체 노드의 최단 거리 찾기.
-   - 루프 순서에 주의해 주자! 경유지 / 시작점 / 끝점 순으로 돌린다. k -> i -> j
+    - 루프 순서에 주의해 주자! 경유지 / 시작점 / 끝점 순으로 돌린다. k -> i -> j
    ```c
     for k , for i, for j
     if(adj[i][j] > adj[i][k] + adj[k][j])
        adj[i][j] = adj[i][k] + adj[k][j];
    ```
-   - O(n^3) 즉, n 이 5000 이하에서만 가능하다. 그 이상이면 사용 불가.
-   -[문제](https://www.acmicpc.net/problem/11780)
-   -[문제](https://www.acmicpc.net/problem/1507)
+    - O(n^3) 즉, n 이 5000 이하에서만 가능하다. 그 이상이면 사용 불가.
+    -[문제](https://www.acmicpc.net/problem/11780)
+    -[문제](https://www.acmicpc.net/problem/1507)
 
 2. 다익스트라 : 시작점에서 마지막점이 주어진 경우 최단거리 찾기 
    - prioirty queue 구현
