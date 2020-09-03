@@ -43,7 +43,7 @@ int main()
     for(int i=0; i<N; i++)
         scanf("%d\n", &array[i]);
 
-    qsort(array, 0, N);
+    qsort(array, 0, N-1);
 
     for(int i=0; i<N; i++)
         printf("%d) %5d\n", i, array[i]);
