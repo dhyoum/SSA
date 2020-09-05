@@ -60,6 +60,4 @@ long long gcd(long long b, long long s) { return s?gcd(s,b%s):b; }
 - [Crocus](https://www.crocus.co.kr/category/Applied)
 - [hsp1116](https://hsp1116.tistory.com/)
 - [라이](https://blog.naver.com/prologue/PrologueList.nhn?blogId=kks227)
-- [algorithm md](http://www.digitalculture.or.kr/upload/algorithm_md.pdf)
-- [algorithm ad](http://www.digitalculture.or.kr/upload/algorithm_ad.pdf)
 
